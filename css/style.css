@@ -84,4 +84,145 @@ header h1{
     width:25%;
     font-size: 10px;
 }
+header p{
+    font-size: 10px;
+}
  /*fine container-header*/
+
+    /*inizio main*/
+.main{
+    width: 100vw;
+    overflow: scroll;
+}
+
+
+
+    .section-1{
+        width: 55%;
+        height: 1140px;
+        
+        
+        padding: 50px 0px;
+        
+        position: absolute;
+        left: 22.5%;
+    }
+    .round-1{
+        width:4px;
+        height:4px;
+        border-radius: 50%;
+        border: solid 5px rgb(5, 67, 255);
+        padding: 1px;
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        left: 10px;
+        bottom: 50px;
+
+    }
+    .mensile{
+        position: absolute;
+        left: 25px;
+        bottom:50px;
+        font-size: 10px;
+    }
+    .annuale{
+        position: absolute;
+        left: 170px;
+        bottom:50px;
+        font-size: 10px;
+    }
+    .round-2{
+        width:12px;
+        height:12px;
+        border-radius: 50%;
+        border: solid 1px grey;
+        
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        bottom: 50px;
+        left: 150px;
+        
+    }
+    .main-blue{
+        color: white;
+        background-color: rgb(5, 67, 255);
+        padding: 1%;  
+        width: 130px;
+        text-align: center;
+    }
+    
+    .main-1{
+        width: 100%;
+        height: 185px;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        
+    }
+    .main-2{
+        width:100%;
+        height: calc(100% - 185px);
+        display: flex;
+    }
+    .col-1 {
+        width: calc(98%/3);
+        height: 80%;
+        border: solid 1px grey;
+        margin-right: 1%;
+        font-size: 10px;
+        
+        
+    }
+    hr{
+        width:25%;
+    }
+    .long-col{
+        height:600px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0px 4%;
+        
+    }
+    .fa-solid fa-check{
+        color: rgb(5, 67, 255);
+    }
+    .col-2 {
+        width: calc(98%/3);
+        height: 80%;
+        border: solid 1px grey;
+        margin-right: 1%;
+    }
+    .col-3 {
+        width: calc(98%/3);
+        height: 80%;
+        border: solid 1px grey;
+    }
+
+    .singolo{
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        line-height: 40px;
+        border-bottom: solid 1px grey;
+    }
+    .team{
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        line-height: 40px;
+        border-bottom: solid 1px grey;
+    }
+    .azienda{
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        line-height: 40px;
+        border-bottom: solid 1px grey;
+    }
