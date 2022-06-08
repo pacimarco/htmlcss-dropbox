@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+           /*inizio header-top*/
+.header-top{
+    width: 100vw;
+    height:80px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+.header-top-sx {
+    width:30%;
+    height:100%;
+    display: flex;
+    text-align: center;
+    color: grey;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.logo-small{
+    width:70%;
+    height:70%;
+}
+.header-top-dx{
+    width:30%;
+    height:100%;
+    display: flex;
+    text-align: center;
+    color: grey;
+    justify-content: space-around;
+    align-content: center;  
+    align-items: center;
+    font-size: 10px;
+}
+.inizia{
+    color: white;
+    background-color: rgb(5, 67, 255);
+    padding: 1%;
+}   /*fine header-top*/
+
+.container-header{  /*inizio container-header*/
+    height: 740px;
+    width: 100%;
+    background-color: rgb(165, 197, 225);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.part-centre{
+    height: 700px;
+    width: 60%;
+    background-color: rgba(red, green, blue, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+.part-centre .inizia{
+    width: 140px;
+    font-size: 10px;
+}
+
+header h1{
+    font-weight: bold;
+}
+.jumbo{
+    position: absolute;
+    left:30%;
+    top:36%;
+    height:460px;
+    width:760px;
+}
+.main-p-header{
+    width:25%;
+    font-size: 10px;
+}
+ /*fine container-header*/
