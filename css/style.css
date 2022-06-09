@@ -55,7 +55,7 @@ body{
     position: relative;
     
 }
-.part-centre{
+.part-center{
     height: 700px;
     width: 60%;
     background-color: rgba(red, green, blue, 1);
@@ -98,15 +98,15 @@ main{
 
 
 
-    .section-1{
+    .section-1{   /*inizio section-1*/
         width: 55%;
-        height: 1140px;
+        height: 1000px;
         
-        
+        margin: auto;
         padding: 50px 0px;
         
-        position: absolute;
-        left: 22.5%;
+        
+        
     }
     .round-1{
         width:4px;
@@ -169,7 +169,7 @@ main{
     }
     .col-1 {
         width: calc(98%/3);
-        height: 80%;
+        height: 100%;
         border: solid 1px grey;
         margin-right: 1%;
         font-size: 10px;
@@ -180,7 +180,7 @@ main{
         width:25%;
     }
     .long-col{
-        height:600px;
+        height: calc(100% - 40px);
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -193,13 +193,13 @@ main{
     }
     .col-2 {
         width: calc(98%/3);
-        height: 80%;
+        height: 100%;
         border: solid 1px grey;
         margin-right: 1%;
     }
     .col-3 {
         width: calc(98%/3);
-        height: 80%;
+        height: 100%;
         border: solid 1px grey;
     }
 
@@ -227,10 +227,10 @@ main{
         line-height: 40px;
         border-bottom: solid 1px grey;
     }
-    .section-2{
+    .section-2{    /*sezione 2*/
         width: 55%;
         height: 250px;
-        
+        margin: auto;
         
         
         
@@ -242,9 +242,56 @@ main{
         text-align: center;
         font-size: 10px;
         line-height: 40px;
-        border-bottom: solid 1px grey;
+        border: solid 1px grey;
     }
     .div-bottom-section-2{
         width:100%;
         height: 210px;
+        border: solid 1px grey;
+        
     }
+                       /* inizio sezione 3*/
+    .section-3{
+        width: 55%;
+        height: 500px;
+        margin: auto;
+        display: flex;
+        margin-top: 100px;
+    }
+    .left-3{
+        width:60%;
+        height: 100%;
+    }
+    .right-3{
+        width:40%;
+        height: 100%;
+    }
+    .left-3 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+                /*inizio sezione 4*/
+    .section-4{
+        width: 55%;
+        height: 800px;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        justify-content: space-between;
+    }    
+    .card-6{
+        width:30%;
+        height:50%;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        justify-content: space-evenly;
+
+    }     
+    .title-section-4{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }  
