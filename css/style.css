@@ -90,8 +90,9 @@ header p{
  /*fine container-header*/
 
     /*inizio main*/
-.main{
+main{
     width: 100vw;
+    height: 4000px;
     overflow: scroll;
 }
 
@@ -225,4 +226,25 @@ header p{
         font-size: 10px;
         line-height: 40px;
         border-bottom: solid 1px grey;
+    }
+    .section-2{
+        width: 55%;
+        height: 250px;
+        
+        
+        
+        
+    
+    }
+    .div-top-section-2{
+        width:100%;
+        height:40px;
+        text-align: center;
+        font-size: 10px;
+        line-height: 40px;
+        border-bottom: solid 1px grey;
+    }
+    .div-bottom-section-2{
+        width:100%;
+        height: 210px;
     }
