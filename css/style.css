@@ -15,6 +15,10 @@ body{
     background-color: white;
     justify-content: space-between;
 }
+.header-top a{
+    text-decoration: none;
+    color: black;
+}
 .header-top-sx {
     width:30%;
     height:100%;
@@ -41,11 +45,20 @@ body{
     align-items: center;
     font-size: 10px;
 }
-.inizia{
+.header-top-dx button {
     color: white;
     background-color: rgb(5, 67, 255);
-    padding: 1%;
-}   /*fine header-top*/
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    border: 0px;
+} 
+.header-top-dx button a{
+    color: white;
+    text-decoration: none;
+}
+  /*fine header-top*/
 
 .container-header{  /*inizio container-header*/
     height: 740px;
