@@ -60,26 +60,55 @@ body{
 }
   /*fine header-top*/
 
-.container-header{  /*inizio container-header*/
-    height: 740px;
-    width: 100%;
+.container-header{
+    height: 600px;
+    width: 65%;
     background-color: rgb(165, 197, 225);
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
+}
+.lightblue-100{
+    background-color: rgb(165, 197, 225);
+}
+.jumbo{
+    
+    width: 100%;
+    margin-bottom: -20px;
     position: relative;
+    bottom: -100px;
+    
+
+}
+.box-header-sx i{
+    font-size: 50px;
+    
     
 }
-.part-center{
-    height: 700px;
-    width: 60%;
-    background-color: rgba(red, green, blue, 1);
+.title-header{
+    width: 100%;
+    height: 35%;
+    padding: 40px 0px;
+    font-size:25px
+}
+.box-header{
+    width:100%;
+    height: 65%;
+    display: flex;
+}
+.box-header-sx{
+    width:40%;
+    height:100%;
     display: flex;
     flex-direction: column;
+    font-size: 10px;
     justify-content: space-around;
-    position: relative;
-    top: 50px;
+    padding: 30px 5px;
 }
-.part-center button{
+.box-header-dx{
+    width:60%;
+    height:100%;
+    
+}
+.box-header-sx button{
     width: 130px;
     font-size: 10px;
     height: 30px;
@@ -89,7 +118,7 @@ body{
     
     
 }
-.part-center button a{
+.box-header-sx button a{
     color: white;
     text-decoration: none;
 }
@@ -97,20 +126,7 @@ body{
 header h1{
     font-weight: bold;
 }
-.jumbo{
-    position: absolute;
-    left:30%;
-    top:36%;
-    height:460px;
-    width:760px;
-}
-.main-p-header{
-    width:25%;
-    font-size: 10px;
-}
-header p{
-    font-size: 10px;
-}
+
  /*fine container-header*/
 
     /*inizio main*/
@@ -127,7 +143,7 @@ main{
         height: 1000px;
         
         margin: auto;
-        padding: 50px 0px;
+        padding: 60px 0px;
         
         
         
