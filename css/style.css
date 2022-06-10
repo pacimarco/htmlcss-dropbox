@@ -7,6 +7,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
            /*inizio header-top*/
+           /*dafissare con fixed*/
 .header-top{
     width: 100vw;
     height:80px;
@@ -92,13 +93,13 @@ header p{
     /*inizio main*/
 main{
     width: 100vw;
-    height: 4000px;
+    
     overflow: scroll;
 }
 
 
 
-    .section-1{   /*inizio section-1*/
+.section-1{   /*inizio section-1*/
         width: 55%;
         height: 1000px;
         
@@ -107,8 +108,8 @@ main{
         
         
         
-    }
-    .round-1{
+}
+.round-1{
         width:4px;
         height:4px;
         border-radius: 50%;
@@ -120,8 +121,8 @@ main{
         left: 10px;
         bottom: 50px;
 
-    }
-    .mensile{
+}
+.mensile{
         position: absolute;
         left: 25px;
         bottom:50px;
@@ -275,7 +276,7 @@ main{
     .section-4{
         width: 55%;
         height: 800px;
-        margin: 0px auto;
+        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         margin-top: 100px;
@@ -295,3 +296,146 @@ main{
         margin-top: 50px;
         margin-bottom: 0px;
     }  
+            /*inizio sezione 5*/
+     .section-5{
+         width:55%;
+         height:270px;
+         margin-top: 150px;
+         margin: 0 auto;
+     }       
+     .box-5{
+         width: 50%;
+         height: 100%;
+         padding: 50px 0px;
+         
+     }
+     .title-5{
+margin-bottom: 50px;
+     }
+     .box-5 a{
+         font-size: 10px;
+     }
+      /*inizio sezione 6 controllare misure quadrati con calc vw*/
+.section-6{
+        display: flex;
+        overflow: scroll;
+        width: 100vw;
+        height: 640px;
+        padding-bottom: 0;
+      }
+      .square{
+          width: calc(100%/3);
+          height: calc(100%vw/3);
+          flex-wrap: wrap;
+          display: flex;
+        }
+        .small-6{
+            width:50%;
+            height:50%;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .small-6 img{
+            width: 60%;
+            height: 60%;
+            filter: invert(1);
+            
+         }
+         .c-red{
+             background-color: red;
+         }
+         .c-green{
+             background-color: rgb(147, 203, 137);
+         }
+         .c-bordeaux{
+                background-color: rgb(79, 0, 32);
+         }
+        .c-blue{
+                background-color: rgb(15, 128, 195);
+            }
+.square-center{
+    font-size: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.img-center{
+    width:50%;
+    height:30%;
+}
+.square-center hr{
+    margin-bottom: 30px;
+}
+.square-center p{
+margin-bottom: 30px;
+}
+.c-lightblue{
+    background-color: rgb(165, 197, 225);
+}
+.c-yellow{
+    background-color: rgb(252, 207, 37);
+}
+ /*inizio sezione 7*/
+ .section-7{
+    background-color: rgb(165, 197, 225);
+    width: 100%;
+    height:350px;
+    
+    
+ }
+ .box-7{
+height: 100%;
+     width: 55%;
+     margin: 0 auto;
+     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .section-7 h2{
+    color: rgb(79, 0, 32); 
+    
+ }
+ .section-7 a{
+    text-decoration: none; 
+    list-style: none;
+    color: black;
+    background-color: white;
+    padding: 8px;
+ }
+ .section-7 button{
+     border: 0px;
+     height:31px ;
+ }
+   /*inizio sezione 8*/
+   .section-8{
+    width: 100%;
+    height: 700px;
+   }
+   .box-8{
+    width: 55%;
+    height: 100%;
+    margin: 0 auto;
+    
+   }
+    
+   .box-8 h2{
+    padding: 80px 0px 50px 0px;
+   }
+   .box-8 h4{
+    padding: 50px 0px 50px 0px;
+    font-size: 12px;
+    display: inline-block;
+   }
+    .box-8 hr{
+     width: 100%;
+    }
+    .box-8 a{
+        color: black;
+        position: relative;
+        left: 200px;
+        display: inline-block;
+    }
