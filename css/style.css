@@ -3,22 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
            /*inizio header-top*/
-           /*dafissare con fixed*/
+           
 .header-top{
     width: 100vw;
     height:80px;
     display: flex;
     background-color: white;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
+
 .header-top a{
     text-decoration: none;
     color: black;
 }
+
 .header-top-sx {
     width:30%;
     height:100%;
@@ -30,10 +37,12 @@ body{
     align-items: center;
     font-size: 10px;
 }
+
 .logo-small{
     width:70%;
     height:70%;
 }
+
 .header-top-dx{
     width:30%;
     height:100%;
@@ -45,6 +54,7 @@ body{
     align-items: center;
     font-size: 10px;
 }
+
 .header-top-dx button {
     color: white;
     background-color: rgb(5, 67, 255);
@@ -54,10 +64,12 @@ body{
     font-size: 10px;
     border: 0px;
 } 
+
 .header-top-dx button a{
     color: white;
     text-decoration: none;
 }
+
   /*fine header-top*/
 
 .container-header{
@@ -66,9 +78,12 @@ body{
     background-color: rgb(165, 197, 225);
     margin: 0 auto;
 }
+
 .lightblue-100{
     background-color: rgb(165, 197, 225);
+    margin-top: 80px;
 }
+
 .jumbo{
     
     width: 100%;
@@ -78,22 +93,26 @@ body{
     
 
 }
+
 .box-header-sx i{
     font-size: 50px;
     
     
 }
+
 .title-header{
     width: 100%;
     height: 35%;
     padding: 40px 0px;
     font-size:25px
 }
+
 .box-header{
     width:100%;
     height: 65%;
     display: flex;
 }
+
 .box-header-sx{
     width:40%;
     height:100%;
@@ -103,11 +122,13 @@ body{
     justify-content: space-around;
     padding: 30px 5px;
 }
+
 .box-header-dx{
     width:60%;
     height:100%;
     
 }
+
 .box-header-sx button{
     width: 130px;
     font-size: 10px;
@@ -115,9 +136,8 @@ body{
     padding: 5px;
     background-color: rgb(5, 67, 255);
     border: 0px;
-    
-    
 }
+
 .box-header-sx button a{
     color: white;
     text-decoration: none;
@@ -166,14 +186,16 @@ main{
         left: 25px;
         bottom:50px;
         font-size: 10px;
-    }
-    .annuale{
+}
+
+.annuale{
         position: absolute;
         left: 170px;
         bottom:50px;
         font-size: 10px;
-    }
-    .round-2{
+}
+
+.round-2{
         width:12px;
         height:12px;
         border-radius: 50%;
@@ -185,29 +207,32 @@ main{
         bottom: 50px;
         left: 150px;
         
-    }
-    .main-blue{
+}
+    
+.main-blue{
         color: white;
         background-color: rgb(5, 67, 255);
         padding: 1%;  
         width: 130px;
         text-align: center;
-    }
+}
     
-    .main-1{
+.main-1{
         width: 100%;
         height: 185px;
         text-align: center;
         margin: 0 auto;
         position: relative;
         
-    }
-    .main-2{
+}
+    
+.main-2{
         width:100%;
         height: calc(100% - 185px);
         display: flex;
-    }
-    .col-1 {
+}
+    
+.col-1 {
         width: calc(98%/3);
         height: 100%;
         border: solid 1px grey;
@@ -215,11 +240,13 @@ main{
         font-size: 10px;
         
         
-    }
-    hr{
+}
+    
+hr{
         width:25%;
-    }
-    .long-col{
+}
+    
+.long-col{
         height: calc(100% - 40px);
         width: 90%;
         display: flex;
@@ -227,62 +254,71 @@ main{
         justify-content: space-around;
         padding: 0px 4%;
         
-    }
-    .long-col button{
+}
+    
+.long-col button{
         color: white;
         background-color: rgb(5, 67, 255);
         border: 0px;
         padding:5px;
         
         
-    }
-    .long-col button a{
+}
+    
+.long-col button a{
         color: white;
         text-decoration: none;
         font-size: 10px;
-    }
-    .fa-solid fa-check{
+}
+    
+.fa-solid fa-check{
         color: rgb(5, 67, 255);
-    }
-    .col-2 {
+}
+    
+.col-2 {
         width: calc(98%/3);
         height: 100%;
         border: solid 1px grey;
         margin-right: 1%;
         font-size: 10px;
-    }
-    .col-3 {
+}
+   
+.col-3 {
         width: calc(98%/3);
         height: 100%;
         border: solid 1px grey;
         font-size: 10px;
-    }
+}
 
-    .singolo{
+    
+.singolo{
         height: 40px;
         width: 100%;
         text-align: center;
         font-size: 10px;
         line-height: 40px;
         border-bottom: solid 1px grey;
-    }
-    .team{
+}
+    
+.team{
         height: 40px;
         width: 100%;
         text-align: center;
         font-size: 10px;
         line-height: 40px;
         border-bottom: solid 1px grey;
-    }
-    .azienda{
+}
+    
+.azienda{
         height: 40px;
         width: 100%;
         text-align: center;
         font-size: 10px;
         line-height: 40px;
         border-bottom: solid 1px grey;
-    }
-    .section-2{    /*sezione 2*/
+}
+    
+.section-2{    /*sezione 2*/
         width: 55%;
         height: 250px;
         margin: auto;
@@ -290,58 +326,73 @@ main{
         
         
     
-    }
-    .div-top-section-2{
+}
+    
+.div-top-section-2{
         width:100%;
         height:40px;
         text-align: center;
         font-size: 10px;
         line-height: 40px;
         border: solid 1px grey;
-    }
-    .div-bottom-section-2{
+}
+    
+.div-bottom-section-2{
         width:100%;
         height: 210px;
         border: solid 1px grey;
         
-    }
-    .enterprise{
+}
+    
+.enterprise{
         width:100%;
         height: 75px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0px 10px;
-    }
-    .enterprise button{
-        color: white;
+}
+    
+.enterprise button{
+        
         background-color: rgb(5, 67, 255);
-        font-size: 10px;
+        
         width: 150px;
         height: 30px;
         border: 0px;
         
-    }
-    .down p{
+}
+    
+.enterprise button a{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+}
+   
+.down p{
         font-size: 10px;
         padding: 10px;
-    }
-    .down h5{
+}
+   
+.down h5{
         padding: 10px;
-    }
+}
                        /* inizio sezione 3*/
-    .section-3{
+    
+.section-3{
         width: 55%;
         height: 500px;
         margin: auto;
         display: flex;
         margin-top: 100px;
-    }
-    .left-3{
+}
+   
+.left-3{
         width:60%;
         height: 100%;
-    }
-    .right-3{
+}
+   
+.right-3{
         width:40%;
         height: 100%;
         padding:50px; 
@@ -400,21 +451,26 @@ main{
          height:270px;
          margin-top: 150px;
          margin: 0 auto;
-     }       
+     } 
+
      .box-5{
          width: 50%;
          height: 100%;
          padding: 50px 0px;
          
      }
+
      .title-5{
-margin-bottom: 50px;
+    margin-bottom: 50px;
      }
+
      .box-5 a{
          font-size: 10px;
      }
+
       /*inizio sezione 6 controllare misure quadrati con calc vw*/
-.section-6{
+
+      .section-6{
         display: flex;
         overflow: scroll;
         width: 100vw;
@@ -423,7 +479,7 @@ margin-bottom: 50px;
       }
       .square{
           width: calc(100%/3);
-          height: calc(100%vw/3);
+          height: calc(100% vw /3);
           flex-wrap: wrap;
           display: flex;
         }
@@ -537,6 +593,7 @@ height: 100%;
         left: 200px;
         display: inline-block;
     } 
+    
     /*inizio footer*/
     footer{
         width:100%;
@@ -571,8 +628,9 @@ height: 100%;
         width: calc(90%/5);
         padding:70px calc(10%/5);
     }
-    .border-1{
+    
+    .drop-1:hover{
         border-bottom: 2px white solid;
-        
     }
+    
     
