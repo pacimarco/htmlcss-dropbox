@@ -593,6 +593,12 @@ height: 100%;
         left: 200px;
         display: inline-block;
     } 
+    .box-8 i:active::after{
+        content:"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum";
+        font-size: 10px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+    }
     
     /*inizio footer*/
     footer{
