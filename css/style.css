@@ -151,9 +151,9 @@ header h1{
 
     /*inizio main*/
 main{
-    width: 100vw;
+    width: 100%;
     
-    overflow: scroll;
+    
 }
 
 
@@ -474,12 +474,12 @@ hr{
         display: flex;
         overflow: scroll;
         width: 100vw;
-        height: 640px;
+        height: 480px;
         padding-bottom: 0;
       }
       .square{
           width: calc(100%/3);
-          height: calc(100% vw /3);
+          height: calc(100vw /3);
           flex-wrap: wrap;
           display: flex;
         }
